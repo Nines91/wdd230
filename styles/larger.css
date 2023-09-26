@@ -1,0 +1,35 @@
+
+/*------------>339px mobile------------*/
+@media screen and (min-width: 340px){
+    header {
+        display: flex;
+        align-items:center;
+        justify-content:space-around;
+        font-size: 1rem;
+        color: white;
+    }
+    
+    .photo {
+        margin: 0 auto;
+    }
+    .name {
+        
+        margin: 0 auto;
+    }
+
+    nav {
+        display:flex;
+        
+        align-items: center;
+        justify-content: center;
+    }
+
+    .links {
+        font-size: 20px;
+        margin: 0 auto;
+    }
+}
+
+/*------------>719px medium------------*/
+
+/*------------>959px larger------------*/
