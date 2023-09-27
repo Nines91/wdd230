@@ -1,35 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 
-/*------------>339px mobile------------*/
-@media screen and (min-width: 340px){
+
+/*------------ mobile view ------------*/
+@media screen and (min-width: 330px) {
     header {
         display: flex;
-        align-items:center;
-        justify-content:space-around;
-        font-size: 1rem;
-        color: white;
-    }
-    
-    .photo {
-        margin: 0 auto;
-    }
-    .name {
-        
-        margin: 0 auto;
+	    align-items: center;
+	    justify-content: center;
+        margin:auto;
+        padding: auto;;
     }
 
-    nav {
-        display:flex;
-        
-        align-items: center;
-        justify-content: center;
+    .potho {
+        justify-items: center;
+        align-content: center;
+        margin-left: auto;
+    }
+
+    .name {
+        margin: auto;
+        margin-left: 0;
+    }
+
+    nav a {
+        display:block;
+        text-align: center;
+        text-decoration: none;
     }
 
     .links {
-        font-size: 20px;
-        margin: 0 auto;
+        font-size: 1.3rem;
+    }
+
+    h2 {
+        font-size: 1.1rem;
+        padding-top: 12px;
+        padding-bottom: 0;
+    }
+
+    ol {
+      font-size: 90%;
+    }
+
+    h3 {
+        font-size: medium;
+        padding: auto;
+    }
+
+    footer {
+        padding-bottom: 15px;
     }
 }
 
-/*------------>719px medium------------*/
+/*------------ medium view ------------*/
+@media screen and (min-width: 520px) {
+    h1 {
+         font-size: 3rem;
+    }
+    .links {
+        font-size: 1.5rem;
+    }
 
-/*------------>959px larger------------*/
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    ol {
+        font-size: 1rem;
+      }
+
+      h3 {
+        font-size: 1.2rem;
+    }
+
+    footer {
+        padding-bottom: 15px;
+    }
+}
+
+/*------------ larger view ------------*/
+@media screen and (min-width: 720px) {
+
+    nav ul{
+        display:flex;
+        text-align: center;
+        justify-content: space-evenly;
+        
+    }
+
+    .nav {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .links {
+        font-size: 1.5rem;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        text-align: left;
+        margin-left: 50px;
+    }
+
+    .card1, .card2 {
+        box-shadow:0px 0px 8px 1px rgb(54, 57, 250);
+    }
+    .card1 {
+        grid-column: 1/5;
+        margin-right: 0;
+        margin-top: 0;
+    }
+
+    .card2 {
+        grid-column: 5/7;
+        grid-row: 2/5;
+        margin-left: 0;
+    }
+
+    .info-paragraph {
+        margin-top: 20px;
+    }
+
+    footer {
+        font-size: 1.2rem;
+    }
+
+    #footer-last-modif { 
+        padding-bottom: 15px;
+    }
+
+    .copyright, #footer-last-modif {
+        grid-column: 1/-1;
+    }
+}
