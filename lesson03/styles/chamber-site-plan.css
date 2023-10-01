@@ -1,0 +1,75 @@
+/* font-family: 'DM Serif Display', serif;
+font-family: 'PT Serif', serif; */
+
+:root {
+    /****Color palete****/
+    --primary-color: #202030;
+    --secondary-color: #F7F7FF;
+    --accent1-color: #FDCA40;
+    --accent2-color: #17bebb;
+
+    /****Typography****/
+    --heading-font: 'DM Serif Display', serif;
+    --paragraph-font: 'PT Serif', serif;
+}
+
+html {
+    background-color: var(--primary-color);
+}
+
+body {
+    max-width: 980px;
+    margin: 0 auto;
+    color: var(--secondary-color);
+    padding: 2em;
+}
+
+h1, h2, h3 {
+    font-family: var(--heading-font);
+}
+
+h2, h3 {
+    font-weight: lighter;
+    color: var(--accent1-color);
+    text-decoration: underline;
+}
+
+header{
+    text-align: center;
+    font-size: 2rem;
+}
+ p{
+    font-family: var(--paragraph-font);
+    font-size: 18px;
+    margin-left: 10px;
+ }
+
+ .colors {
+    width: 100%;
+    min-width: 350px;
+    margin: auto;
+    text-align: center;
+    color: black;
+    border: 1px solid white;
+  }
+  .colors th {
+    background-color: #999;
+  }
+  .colors td{
+    width: 25%;
+    height: 3em;
+  }
+  
+  .primary {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+  }
+  .secondary {
+    background-color: var(--secondary-color);
+  }
+  .accent1 {
+    background-color: var(--accent1-color);
+  }
+  .accent2{
+    background-color: var(--accent2-color);
+  }
