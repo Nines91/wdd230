@@ -14,6 +14,10 @@
         /*padding: auto;*/
     }
 
+    header h1{
+        font-size: 1.5rem;
+    }
+
     .potho {
         justify-items: center;
         align-content: center;
@@ -32,7 +36,14 @@
     }
 
     .links {
-        font-size: 1.3rem;
+        /*font-size: 1.3rem;*/
+        display: none;
+    }
+
+    .nav {
+        padding-top: 0;
+        padding-bottom: 0;
+        border: 1px solid transparent;
     }
 
     h2 {
@@ -52,12 +63,42 @@
     footer {
         padding-bottom: 15px;
     }
+    
+    #menu {
+        font-size: 1.3rem;
+        border: 1px solid rgba(0,0,0,.7);
+        border-radius: 5px;
+        padding: 6px 6px;
+        margin-top: -60px;
+        margin-right: 35px;
+        background-color: #eee;
+        color: #000;
+        position: absolute;
+        right: 1rem;
+    }
+    
+    #menu::before {
+        content: "☰";
+    }
+    
+    #menu.open::before {
+        content: "✘";
+    }
+
+    .open .links {
+        display: block;
+        width: 100%;
+    }
+    .open .links {
+        display: block;
+    }
+
 }
 
 /*------------ medium view ------------*/
 @media screen and (min-width: 520px) {
-    h1 {
-         font-size: 3rem;
+    header h1 {
+         font-size: 2.5rem;
     }
     .links {
         font-size: 1.5rem;
@@ -78,11 +119,19 @@
     footer {
         padding-bottom: 15px;
     }
+    
 }
 
 /*------------ larger view ------------*/
 @media screen and (min-width: 720px) {
 
+    #menu {
+        display: none;
+    }
+
+    header h1 {
+        font-size: 3rem;
+    }
     nav ul{
         display:flex;
         text-align: center;
@@ -97,6 +146,7 @@
 
     .links {
         font-size: 1.5rem;
+        display: flex;
         margin-top: 10px;
         margin-bottom: 10px;
     }
