@@ -1,0 +1,10 @@
+
+@media screen and (min-width: 720px) { 
+    #menu {
+        display: none;
+    }
+
+    .nav-list {
+        display: flex;
+    }
+}
