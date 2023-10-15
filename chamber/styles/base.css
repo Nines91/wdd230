@@ -33,6 +33,15 @@ header {
     font-family: var(--paragraph-font);
 }
 
+#mode {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: transparent; 
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
 .logo {
     color: black;
     border: 1px solid black;

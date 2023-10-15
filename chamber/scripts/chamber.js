@@ -18,3 +18,18 @@ hamButton.addEventListener('click', () => {
 	navigation.classList.toggle('open');
 	hamButton.classList.toggle('open');
 });
+
+const modeButton = document.querySelector('#mode');
+const content = document.querySelector('main',);
+
+modeButton.addEventListener('click', () => {
+	if (modeButton.textContent.includes('🌑')) {
+		content.style.background = 'var(--primary-color)';
+		content.style.color = '#fff';
+		modeButton.textContent = '🔆';
+	} else {
+		content.style.background = 'var(--secondary-color)';
+		content.style.color = '#000';
+		modeButton.textContent = '🌑';
+	}
+});
