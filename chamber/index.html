@@ -25,7 +25,13 @@
         <header>
             <div id="mode">🌑</div>
             <button id="menu"></button>
-            <div class="logo"> Logo will be here </div>
+            <div class="logo"> 
+                <picture>
+                    <source media="(max-width: 400px)" srcset="images/logo-small-view.webp">
+                    <source media="(max-width: 550px)" srcset="images/logo-medium-view.webp">
+                    <img src="images/logo-larger-view.webp" alt="">
+                </picture>
+            </div>
             <nav class="nav">
                 <ul class="nav-list">
                     <li><a href="" target="_blank">Home</a></li>
@@ -42,16 +48,29 @@
             </div>
         </header>
         <hr>
+        <div class="hero-image">
+            <picture>
+                <source media="(max-width: 550px)" srcset="images/small-wdd230-org.webp">
+                <source media="(max-width: 960px)" srcset="images/medium-wdd230-org.webp">
+                <img src="images/larger-wdd230-org.webp" alt="main photo" width="960" height="480">
+            </picture>
+            <div class="herolabel">
+                <p class="small-view">Small view</p>
+                <p class="medium-view">Medium view</p>
+                <p class="large-view">Larger view</p>
+            </div>
+        </div>
         <main>
-            <section class="slides">
-            <p class="slide-para">slides image section</p>
-            </section>
+            
             <section class="news">
                 <h1>NEWS</h1>
                 <p class="news-paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
             </section>
             <section class="weather">
-                <h1>Weahter section</h1>
+                <h1><img src="images/weather-icon2.webp" alt="weather-icon">Weather</h1>
+                <p>🌡️ Current Temperature in F°: <span id="temperature">30</span></p>
+                <p>🌬️ Wind Speed in MPH: <span id="windspeed">5.0</span></p>
+                <p>🥵🥶 Wind Chill: <span id="windchill">Calculating...</span></p>
             </section>
             <section class="spotlights">
                 <h2>Spotlights Members</h2>
@@ -94,5 +113,6 @@
         </footer>
     </div>
         <script src="scripts/chamber.js"></script>
+        <script src="scripts/windchill.js"></script>
     </body>
 </html>
