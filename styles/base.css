@@ -159,6 +159,7 @@ ol li {
 .info-paragraph {
     font-family:"Montserrat Alternates", sans-serif ;
     font-size: 15px;
+    font-weight: bold;
 }
 
 .maps {
