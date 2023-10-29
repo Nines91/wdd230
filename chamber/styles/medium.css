@@ -98,7 +98,15 @@
 
         .weather p {
             font-size: .9rem;
-        }  
+        }      
+}
+
+/*--------------- small view discore page 500px---------------*/
+@media screen and (max-width: 500px) {
+    .main-discover {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 /*--------------- medium view 550px---------------*/

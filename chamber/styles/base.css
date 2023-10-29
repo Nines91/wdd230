@@ -317,3 +317,98 @@ footer {
     justify-content: center;
 }
 
+/*----------Discover layout----------*/
+.main-discover {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 1rem;
+    font-family: var(--paragraph-font);
+}
+
+li{
+    color: var(--accent1-color);
+    margin-bottom:-10px;
+    font-size: 1.2rem;
+}
+
+.images {
+    grid-column: 2/3;
+    grid-row: 1/5;
+    text-align: center;
+}
+
+.d-img{
+    width: 100%;
+    padding-top: 15px;
+}
+
+.title-discover { 
+    text-align: center;
+    font-family: var(--heading-font);
+    font-size: 1.5rem;
+}
+.main-discover-paragraph {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.div-discover1 {
+    grid-row: 1/2;
+}
+
+.div-discover2 {
+    grid-row: 2/3;
+}
+
+.div-discover3 {
+    grid-row: 3/4;
+}
+
+.div-discover4 {
+    grid-row: 4/5;
+}
+
+.div-discover5 {
+    grid-row: 5/6;
+}
+
+.calendar {
+    width: 50%;
+    color: var(--primary-color);
+    background-color: var(--accent1-color);
+}
+
+.attraction-link {
+   text-decoration: none;
+}
+
+.attraction-link:hover {
+    color: var(--accent1-color);
+    font-size: 1.02rem;
+    border: 1px solid var(--accent2-color);
+    border-radius: 5px;
+    padding: 0.3rem;
+}
+
+.img1:hover {
+    border-radius: 70px 250px;
+}
+
+.img2:hover {
+    filter: grayscale(100%);
+}
+
+.img3:hover {
+    rotate: -30deg;
+}
+
+.img4:hover {
+    filter:sepia();
+}
+.img5:hover {
+    filter: opacity(.75);
+}
+
+.img6:hover {
+    border-radius: 160px 160px 160px 160px;
+}
