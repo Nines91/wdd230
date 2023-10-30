@@ -107,6 +107,11 @@
         display: flex;
         flex-direction: column;
     }
+
+    .visits {
+        font-size: 13px;
+        border: 2px solid var(--accent1-color);
+    }
 }
 
 /*--------------- medium view 550px---------------*/
