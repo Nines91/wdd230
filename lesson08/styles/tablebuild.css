@@ -1,0 +1,45 @@
+:root {
+    --title-headbackground: rgb(37, 180, 92); 
+    --title-rowbackground: rgb(120, 226, 166);
+    --zebra: rgba(120, 226, 166, 0.521);
+    --bordercolor: rgba(0, 255, 55, 0.692);
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+caption {
+    padding: 13px;
+    caption-side: bottom;
+    font-size: small;
+}
+table {
+    margin: 30px auto;
+    border: thin solid var(--bordercolor);
+    border-collapse: collapse;
+}
+
+thead :first-child {
+    font-size: larger;
+    background-color:var(--title-headbackground);
+    color:black;
+}
+
+tbody tr:nth-child(even) {
+    background-color: var(--zebra);
+}
+
+thead th {
+    font-size: 20px;
+    background-color: var(--title-rowbackground);
+}
+
+th, td {
+	padding: 10px 25px;
+	border: 1px solid var(--bordercolor);
+}
+
+td {
+    text-align: center;
+}
