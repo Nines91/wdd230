@@ -22,6 +22,7 @@ table {
 
 thead :first-child {
     font-size: larger;
+    border-style: none;
     background-color:var(--title-headbackground);
     color:black;
 }
