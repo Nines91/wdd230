@@ -85,12 +85,17 @@ a {
 }
 
 #join {
+    color: var(--primary-color);
     background-color: var(--accent2-color);
     border: 2px solid var(--accent1-color);
     border-radius: 5px;
     padding: 6px;
     margin-right: 30px;
     font-size: larger;
+}
+
+#join a:link {
+    text-decoration: none;
 }
 
 #join:hover {
@@ -432,3 +437,121 @@ li{
 .img6:hover {
     border-radius: 160px 160px 160px 160px;
 }
+
+/*---------------- JOIN PAGE LAYOUT ----------------*/
+
+form {
+    grid-column: 1/7;
+    width: 50%;
+    margin: auto;  
+}
+
+form .form-title {
+    text-align: center;
+    font-family: var(--heading-font);
+    color: var(--accent2-color);
+    font-weight: none;
+}
+
+form fieldset {
+    width: 80%;
+    margin: auto;
+    border: 2px solid var(--accent1-color);
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+
+form legend {
+    color: var(--accent1-color);
+    font-family: var(--paragraph-font);
+    font-size: 1.15rem;
+    margin: 0 1rem;
+    padding: .5rem;
+}
+
+form label.top{
+    display: block;
+    padding-top: 1.8rem;
+    font-size: 1.3rem;
+    color: var(--secondary-color);
+}
+
+form label.top input, form label.top-level select {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: 1px solid var(--accent2-color);
+    border-radius: 4px;
+    padding: .70rem;
+    color: var(--primary-color);
+    width: 100%;
+    max-width: 15rem;
+    background-color: var(--secondary-color);
+}
+
+form label.top-level select option {
+    background: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+form label.top-level select:hover {
+    background: var(--accent1-color);
+}
+
+form label.top input::placeholder { 
+    color: var(--primary-color);
+}
+
+textarea {
+    margin-top: 2px;
+    margin-left: 5px;
+    border: 1px solid var(--accent2-color);
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-family: var(--paragraph-font);
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+textarea:hover, form label.top input:hover{
+    background-color: var(--accent1-color);
+    
+}
+
+form .levels {
+    padding: .75rem;
+    margin: 0;
+}
+
+form input.submitBtn {
+    text-align: center;
+    font-weight: bolder;
+    justify-content: center;
+    border: none;
+    background-color: var(--accent1-color);
+    color: var(--primary-color);
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 1rem auto;
+    width: 75%;
+    max-width: 18rem;
+}
+
+/*--------------THANK YOU LAYOUT PAGE-----------------*/
+.main-thankyou-page {
+    grid-column: 2/6;
+    text-align: center;
+}
+
+.thanks-title {
+    font-family: var(--heading-font);
+    font-size: 3rem;
+    color: var(--accent1-color);
+}
+
+.thanks-para {
+    text-align: center;
+    font-family: var(--paragraph-font);
+    font-size: 1.5rem;
+}
+
