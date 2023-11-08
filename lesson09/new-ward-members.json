@@ -1,0 +1,23 @@
+{
+    "familyName" : "Ines",
+    "dateArriveIntoTheWard" : 2013,
+    "numberOfIntegrants" : "3",
+    "visitedByBishipric" : true,
+    "members" : [
+        { 
+          "name" : "Nicolas Fernando",
+          "gender" : "male",
+          "birthdate" : "Jun 1st, 1991"
+        },
+        { 
+          "name" : "Cristina Yazmin",
+          "gender" : "female",
+          "birthdate" : "May 22nd, 1991"
+        },
+        { 
+          "name" : "David Nicolas",
+          "gender" : "male",
+          "birthdate" : "Jul 31st, 2018"
+        }
+    ]
+}

@@ -285,12 +285,12 @@ h2 {
 .spot-3 {
     grid-row: 4/5;
 }
+
 footer {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    padding-bottom: 5px;
+    margin: 15px 0;
+    padding: 10px 5px;
     font-family: var(--paragraph-font);
     height: 100px;
     border: 1px solid var(--accent2-color);
@@ -318,8 +318,12 @@ footer {
 .info {
     grid-column: 3/4;
     grid-row: 1/2;
+    font-family: var(--paragraph-font);
+    color: var(--accent1-color);
+    font-size: small;
     text-align: center;
     justify-content: center;
+    margin: 10px auto;
 }
 
 /*----------Discover layout----------*/
