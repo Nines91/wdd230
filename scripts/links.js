@@ -15,7 +15,7 @@ const displayLinks = (weeks) => {
     weeks.forEach((lessons) => {
 
         const weekDiv = document.createElement('div');
-        weekDiv.innerHTML = `<p>${lessons.lesson}: </p>`;
+        this.weekDiv.innerHTML = `<p>${lessons.lesson}: </p>`;
 
         lessons.links.forEach(link => {
             const linkElement = document.createElement('a');
