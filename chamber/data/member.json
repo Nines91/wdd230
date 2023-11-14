@@ -5,7 +5,7 @@
             "address": "80, 126, 245 Jose San Martin Street, Córdoba, Argentina",
             "phone": "Whatsapp: +54 9 351 6278787",
             "website": "https://www.nicotiendas.com/",
-            "imagIcon": "/logos/nico.webp",
+            "imagIcon": "chamber/images/logos/nico.webp",
             "membership-level": "Golden",
             "short-description": "Variety store"
         },
@@ -14,7 +14,7 @@
             "address": "2 Santa Rosa Street, Córdoba, Argentina",
             "phone": "+54 9 351 4235316",
             "website": "https://www.migos.com.ar/",
-            "imagIcon": "/logo/migos.webp",
+            "imagIcon": "chamber/images/logos/migos.webp",
             "membership-level": "Silver",
             "short-description": "Electro store"
         },
@@ -23,7 +23,7 @@
             "address": "299 Santa Rosa Street, Córdoba, Argentina",
             "phone": "+54 9 351 5554557",
             "website": "https://mundolosangeles.com.ar/",
-            "imagIcon": "/logo/los-angeles.webp",
+            "imagIcon": "chamber/images/logos/los-angeles.webp",
             "membership-level": "Golden",
             "short-description": "Cloth store"
         },
@@ -32,7 +32,7 @@
             "address": "154 General Paz Avenue, Local 5, Córdoba, Argentina",
             "phone": "+54 351 6138083",
             "website": "https://www.crossover-comics.com/",
-            "imagIcon": "/logo/crossovers.webp",
+            "imagIcon": "chamber/images/logos/crossovers.webp",
             "membership-level": "Bronze",
             "short-description": "Comics store"
         },
@@ -41,7 +41,7 @@
             "address": "25 de Mayo 2140 Boulevard (2400) San Francisco, Córdoba, Argentina",
             "phone": "+54 (03564) 420859",
             "website": "https://www.cento.com.ar/",
-            "imagIcon": "/logo/cento.webp",
+            "imagIcon": "chamber/images/logos/cento.webp",
             "membership-level": "Bronze",
             "short-description": "Electro home"
         },
@@ -50,7 +50,7 @@
             "address": "480 Rivadavia Street, Córdoba, Argentina",
             "phone": "+54 9 351 4290712",
             "website": "https://www.megaiman.com.ar/",
-            "imagIcon": "/logo/iman.webp",
+            "imagIcon": "chamber/images/logos/iman.webp",
             "membership-level": "Silver",
             "short-description": "Hardware and accessories for furniture and construction"
         },
@@ -59,7 +59,7 @@
             "address": "103 Achaval Rodriguez Street, Local 3, Córdoba, Argentina",
             "phone": "+54 9 351 5156809",
             "website": "https://lssi.com.ar/",
-            "imagIcon": "/logo/lssi.webp",
+            "imagIcon": "chamber/images/logos/lssi.webp",
             "membership-level": "Bronze",
             "short-description": "Technologyc solutions"
         }
