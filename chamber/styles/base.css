@@ -559,3 +559,46 @@ form input.submitBtn {
     font-size: 1.5rem;
 }
 
+/*--------------DIRECTORY LAYOUT PAGE-----------------*/
+
+main #members-card{
+    grid-column: 1/7;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    
+}
+
+#members-card {
+    background-color: var(--accent2-color);
+   
+    padding: 10px;
+}
+
+section {
+    border: 1px solid var(--primary-color);
+    border-radius: 3px;
+    margin: 0.25rem;
+    padding: 0.35rem;
+    background-color: var(--accent2-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#members-card h2 {
+    padding: 5px 0;
+    font-family: var(--paragraph-font);
+    color: var(--primary-color);
+    background-color: transparent;
+}
+
+#members-card img {
+    width: auto;
+    border-radius: 4px;
+}
+
+#members-card p {
+    text-align: center;
+    justify-content: center;
+    font-family: var(--paragraph-font);
+}

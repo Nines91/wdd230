@@ -16,6 +16,7 @@ const displayCompanies = (companies) => {
       let card = document.createElement('section');
       let name = document.createElement('h2'); 
       let portrait = document.createElement('img');
+      let paragraph = document.createElement('p');
   
       // Build the h2 content out to show the prophet's full name
       name.textContent = `${company.name}`; 
@@ -25,10 +26,14 @@ const displayCompanies = (companies) => {
       portrait.setAttribute('loading', 'lazy');
       portrait.setAttribute('width', '280');
       portrait.setAttribute('height', '158');
+      paragraph.innerHTML = `${company.address}<br>${company.phone}<br>${company.short}`;
+      
+      
   
       // Append the section(card) with the created elements
       card.appendChild(name); 
       card.appendChild(portrait);
+      card.appendChild(paragraph);
   
       cards.appendChild(card);
     }); // end of arrow function and forEach loop
