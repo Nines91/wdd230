@@ -85,7 +85,7 @@ a {
 }
 
 #join {
-    color: var(--primary-color);
+    color: var(--accent1-color);
     background-color: var(--accent2-color);
     border: 2px solid var(--accent1-color);
     border-radius: 5px;
@@ -570,16 +570,15 @@ main #members-card{
 
 #members-card {
     background-color: var(--accent2-color);
-   
     padding: 10px;
 }
 
-section {
+#members-card section {
     border: 1px solid var(--primary-color);
     border-radius: 3px;
     margin: 0.25rem;
     padding: 0.35rem;
-    background-color: var(--accent2-color);
+    background-color: var(--primary-color);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -588,17 +587,23 @@ section {
 #members-card h2 {
     padding: 5px 0;
     font-family: var(--paragraph-font);
-    color: var(--primary-color);
+    color: var(--accent1-color);
     background-color: transparent;
 }
 
 #members-card img {
     width: auto;
     border-radius: 4px;
+    margin-bottom: 10px;
 }
 
 #members-card p {
     text-align: center;
     justify-content: center;
+    margin-bottom: 5px;
     font-family: var(--paragraph-font);
+    font-size: 15px;
+    background-color: transparent;
+    opacity: .4px;
+    color: var(--secondary-color);
 }

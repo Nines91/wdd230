@@ -3,7 +3,7 @@
         {
             "name": "Nico Tiendas",
             "address": "80, 126, 245 Jose San Martin Street, Córdoba, Argentina",
-            "phone": "Whatsapp: +54 9 351 6278787",
+            "phone": "+54 9 351 6278787",
             "website": "https://www.nicotiendas.com/",
             "imagIcon": "/chamber/images/logos/nico.webp",
             "membershipLevel": "Golden",
@@ -30,7 +30,7 @@
         {
             "name": "Crossover",
             "address": "154 General Paz Avenue, Local 5, Córdoba, Argentina",
-            "phone": "+54 351 6138083",
+            "phone": "+54 9 351 6138083",
             "website": "https://www.crossover-comics.com/",
             "imagIcon": "/chamber/images/logos/crossovers.webp",
             "membershipLevel": "Bronze",
@@ -39,7 +39,7 @@
         {
             "name": "Cento Hogar",
             "address": "25 de Mayo 2140 Boulevard (2400) San Francisco, Córdoba, Argentina",
-            "phone": "+54 (03564) 420859",
+            "phone": "+54 9 (03564) 420859",
             "website": "https://www.cento.com.ar/",
             "imagIcon": "/chamber/images/logos/cento.webp",
             "membershipLevel": "Bronze",

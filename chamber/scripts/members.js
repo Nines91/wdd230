@@ -17,6 +17,7 @@ const displayCompanies = (companies) => {
       let name = document.createElement('h2'); 
       let portrait = document.createElement('img');
       let paragraph = document.createElement('p');
+      let website = document.createElement('a');
   
       // Build the h2 content out to show the prophet's full name
       name.textContent = `${company.name}`; 
@@ -26,7 +27,9 @@ const displayCompanies = (companies) => {
       portrait.setAttribute('loading', 'lazy');
       portrait.setAttribute('width', '280');
       portrait.setAttribute('height', '158');
-      paragraph.innerHTML = `${company.address}<br>${company.phone}<br>${company.shortDescription}`;
+      paragraph.innerHTML = `${company.address}<br>${company.phone}<br>${company.shortDescription}<br> Membership Level: ${company.membershipLevel}`;
+      website.setAttribute =('href', company.website);
+      website.setAttribute = ('alt', `Website of ${company.name}`); 
       
       
   
@@ -34,6 +37,7 @@ const displayCompanies = (companies) => {
       card.appendChild(name); 
       card.appendChild(portrait);
       card.appendChild(paragraph);
+      card.appendChild(website);
   
       cards.appendChild(card);
     }); // end of arrow function and forEach loop
