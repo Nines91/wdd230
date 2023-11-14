@@ -1,0 +1,67 @@
+{
+    "companies": [
+        {
+            "name": "Nico Tiendas",
+            "address": "80, 126, 245 Jose San Martin Street, Córdoba, Argentina",
+            "phone": "Whatsapp: +54 9 351 6278787",
+            "website": "https://www.nicotiendas.com/",
+            "image-icon": "/logos/nico.webp",
+            "membership-level": "Golden",
+            "short-description": "Variety store"
+        },
+        {
+            "name": "Migos",
+            "address": "2 Santa Rosa Street, Córdoba, Argentina",
+            "phone": "+54 9 351 4235316",
+            "website": "https://www.migos.com.ar/",
+            "image-icon": "/logo/migos.webp",
+            "membership-level": "Silver",
+            "short-description": "Electro store"
+        },
+        {
+            "name": "Los Angeles",
+            "address": "299 Santa Rosa Street, Córdoba, Argentina",
+            "phone": "+54 9 351 5554557",
+            "website": "https://mundolosangeles.com.ar/",
+            "image-icon": "/logo/los-angeles.webp",
+            "membership-level": "Golden",
+            "short-description": "Cloth store"
+        },
+        {
+            "name": "Crossover",
+            "address": "154 General Paz Avenue, Local 5, Córdoba, Argentina",
+            "phone": "+54 351 6138083",
+            "website": "https://www.crossover-comics.com/",
+            "image-icon": "/logo/crossovers.webp",
+            "membership-level": "Bronze",
+            "short-description": "Comics store"
+        },
+        {
+            "name": "Cento Hogar",
+            "address": "25 de Mayo 2140 Boulevard (2400) San Francisco, Córdoba, Argentina",
+            "phone": "+54 (03564) 420859",
+            "website": "https://www.cento.com.ar/",
+            "image-icon": "/logo/cento.webp",
+            "membership-level": "Bronze",
+            "short-description": "Electro home"
+        },
+        {
+            "name": "Mega Iman",
+            "address": "480 Rivadavia Street, Córdoba, Argentina",
+            "phone": "+54 9 351 4290712",
+            "website": "https://www.megaiman.com.ar/",
+            "image-icon": "/logo/iman.webp",
+            "membership-level": "Silver",
+            "short-description": "Hardware and accessories for furniture and construction"
+        },
+        {
+            "name": "LS SI",
+            "address": "103 Achaval Rodriguez Street, Local 3, Córdoba, Argentina",
+            "phone": "+54 9 351 5156809",
+            "website": "https://lssi.com.ar/",
+            "image-icon": "/logo/lssi.webp",
+            "membership-level": "Bronze",
+            "short-description": "Technologyc solutions"
+        }
+    ] 
+}
