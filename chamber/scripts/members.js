@@ -26,7 +26,7 @@ const displayCompanies = (companies) => {
       portrait.setAttribute('loading', 'lazy');
       portrait.setAttribute('width', '280');
       portrait.setAttribute('height', '158');
-      paragraph.innerHTML = `${company.address}<br>${company.phone}<br>${company.short}`;
+      paragraph.innerHTML = `${company.address}<br>${company.phone}<br>${company.shortDescription}`;
       
       
   
