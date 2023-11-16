@@ -85,13 +85,16 @@ a {
 }
 
 #join {
-    color: var(--accent1-color);
-    background-color: var(--accent2-color);
-    border: 2px solid var(--accent1-color);
+    background-color: var(--accent1-color);
+    border: 2px solid var(--accent2-color);
     border-radius: 5px;
     padding: 6px;
     margin-right: 30px;
     font-size: larger;
+}
+
+#join a {
+    color: var(--primary-color);
 }
 
 #join a:link {
@@ -121,14 +124,13 @@ input:focus {
     transition: 0.5s;
 }
 
-#btn  {
+form #btn {
     border-color: var(--accent1-color);
     border-radius: 50px;
     background-color: transparent;
     overflow: hidden;
     position: absolute;
-    margin-top: 3px;
-    margin-left: -45px;
+   
 }
 
 img {
@@ -157,20 +159,21 @@ main {
     position: relative;
     bottom: 60px; 
     left: 15px;  
-    width: 110px;  
-    background: radial-gradient(rgb(56, 107, 202), var(--primary-color)) ;
+    width: 110px; 
+    background: radial-gradient(var(--secondary-color),rgb(56, 107, 202)) ;
     border: 1px solid black;
     border-radius: 5px;
     padding: .08rem;
     padding-left: 14px;
-    opacity: 0.80;
+    opacity: 0.90;
 }
 
 .small-view, .medium-view, .large-view{
     text-align: center;
     justify-content: center;
     padding-bottom: 10px;
-    color: var(--accent1-color);
+    color: var(--primary-color);
+    font-weight: bolder;
 	font-size: 1.2rem;
 	font-family: var(--paragraph-font);
     background-color: transparent;
@@ -300,7 +303,8 @@ footer {
 .copyright { 
     grid-column: 1/2;
     grid-row: 1/2;
-    margin-top: 20px;
+    text-align: center;
+    padding-top: 15px;
     color: var(--accent1-color);
 }
 
@@ -402,7 +406,6 @@ li{
 }
 
 .calendar {
-    width: 50%;
     color: var(--primary-color);
     background-color: var(--accent1-color);
 }
@@ -417,6 +420,16 @@ li{
     border: 1px solid var(--accent2-color);
     border-radius: 5px;
     padding: 0.3rem;
+}
+
+.main-discover .images {
+    background: var(--primary-color);
+    animation: fade 10s;
+}
+
+@keyframes fade {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
 }
 
 .img1:hover {

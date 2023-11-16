@@ -85,7 +85,7 @@
         }
         
         .copyright {
-            margin-top: 5px;
+            padding-top: 5px;
         }
 
         .social {
@@ -189,7 +189,7 @@
         font-size: medium;
     }
 
-    #btn {
+    form #btn {
         margin-left:75px;
         margin-top: -29px;
     }

@@ -70,6 +70,10 @@
         font-size: medium;
     }
 
+    .info-paragraph {
+        font-size: 15px;
+    }
+
     footer {
         padding-bottom: 15px;
     }
@@ -206,6 +210,7 @@
 
     .info-paragraph {
         margin-top: 20px;
+        font-size: 20px;
     }
 
     footer {
