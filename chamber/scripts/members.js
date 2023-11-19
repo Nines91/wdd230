@@ -3,6 +3,10 @@ const baseUrl = "https://nines91.github.io/wdd230/";
 const linksURL = "https://nines91.github.io/wdd230/chamber/data/member.json";
 const cards = document.querySelector('#members-card');
 
+const gridbutton = document.querySelector('#grid');
+const listbutton = document.querySelector('#list');
+const display = document.querySelector('#members-card');
+
 async function getMembersData () {
     const response = await fetch(linksURL);
     const data = await response.json();
@@ -43,4 +47,7 @@ const displayCompanies = (companies) => {
     }); // end of arrow function and forEach loop
   }
 
-  getMembersData();
+  gridbutton.addEventListener('click',getMembersData);
+
+
+  /*getMembersData();*/

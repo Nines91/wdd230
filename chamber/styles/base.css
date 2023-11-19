@@ -207,8 +207,8 @@ h1{
     grid-column: 1/4;
     grid-row: 4/5;
     margin: 0;
-    color: black;
-    background-color: var(--secondary-color);
+    color: var(--secondary-color);
+    
     opacity: .9;
     border: 1px solid var(--accent2-color);
     box-shadow: var(--accent2-color) 0px 0px 5px 1px;
@@ -220,15 +220,33 @@ h1{
     margin-bottom: -18px;
 }
 .weather h1 {
+    color: var(--secondary-color);
     text-align: center;
     justify-content: center;
     margin-bottom: 0;
 }
 
-.weather p {
-    background-color: transparent; 
+.weather p { 
     text-align: center;
     justify-content: center;  
+}
+
+#currentTemp {
+    font-size: 30px;
+}
+
+#weatherDescription {
+    margin-bottom: 20px;
+}
+
+#forecast li{
+    color: var(--accent1-color);
+    font-size: 15px;
+    font-family: var(--paragraph-font);
+    text-align: center;
+    justify-content: center;
+    margin-left: 15px;
+    margin-bottom: 5px;
 }
 
 span {
@@ -241,14 +259,19 @@ h2 {
 .spotlights {
     grid-column: 4/7;
     grid-row: 2/5;
+    margin: auto;
     width: 100%;
     text-align: center;
     justify-content: space-evenly;
 }
 
+.spotlights h2 {
+    margin-bottom: 20px;
+}
+
 .card {
     font-family: var(--paragraph-font);
-    height: 170px;
+    height: 180px;
     border: 1px solid var(--accent2-color);
     background-color: var(--secondary-color);
     text-align: center;
@@ -574,10 +597,28 @@ form input.submitBtn {
 
 /*--------------DIRECTORY LAYOUT PAGE-----------------*/
 
+main .menu-options {
+    grid-column: 1/7;
+    width: 90%;
+    margin: 1rem auto;
+	padding: 0.5rem;
+	text-align: center;
+}
+
+.menu-options button {
+	padding: 1rem;
+	font-weight: 600;
+    font-family: var(--heading-font);
+    font-size: 25px;
+    border-radius: 15px;
+    background-color: var(--accent1-color);
+    border: 2px solid var(--accent1-color);
+}
+
 main #members-card{
     grid-column: 1/7;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     
 }
 
