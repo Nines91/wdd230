@@ -249,6 +249,15 @@ h1{
     margin-bottom: 5px;
 }
 
+#banner {
+    border: 2px solid var(--accent1-color);
+    border-radius: 10px;
+    overflow: hidden;
+    width: 90%;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
 span {
     background-color: transparent;
 }
