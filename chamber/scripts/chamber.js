@@ -20,7 +20,7 @@ hamButton.addEventListener('click', () => {
 });
 
 const modeButton = document.querySelector('#mode');
-const content = document.querySelector('main',);
+const content = document.querySelector('main');
 
 modeButton.addEventListener('click', () => {
 	if (modeButton.textContent.includes('🌑')) {

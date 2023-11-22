@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cordoba chamber of commerce</title>
-    <meta author="author" content="Nicolás Ines">
+    <meta name="author" content="Nicolás Ines">
     <meta name="description" content="Cordoba Chamber of commerce is a project web page from WDD-230 course
     from BYU-Idaho">
     <meta property="og:title" content="WDD 230 - Web Frontend Development">
@@ -40,7 +40,9 @@
                 </ul>
             </nav>
             <div class="join-search">
-                <button type="submit" id="join" name=""><a href="join.html">JOIN US!</a></button>
+                <form  action="join.html" method="get" >
+                    <button id="join">JOIN US!</button>
+                </form>
                 <form class="search-box">
                     <input type="text" name="search" placeholder="Search...">
                     <button id="btn" type="submit"><img src="images/search-icon.png" alt="search-icon"></button>
@@ -60,8 +62,7 @@
                 <p class="large-view">Larger view</p>
             </div>
         </div>
-        <main>
-            
+        <main> 
             <section class="news">
                 <h1>NEWS</h1>
                 <p class="news-paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
@@ -73,7 +74,7 @@
                 <p>🌬️ Wind Speed in MPH: <span id="windspeed">5.0</span></p>
                 <p>🥵🥶 Wind Chill: <span id="windchill">Calculating...</span></p>-->
                 
-                    <img id="weather-icon" src="" alt=""><p id="currentTemp"></p>
+                    <img id="weather-icon" src="https://openweathermap.org/img/" alt="Icon from API"><p id="currentTemp"></p>
                     <p id="weatherDescription"></p>
                     <ul id="forecast"></ul>
                   

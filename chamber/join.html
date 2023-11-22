@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cordoba chamber of commerce</title>
-    <meta author="author" content="Nicolás Ines"">
+    <meta name="author" content="Nicolás Ines">
     <meta name="description" content="Cordoba Chamber of commerce is a project web page from WDD-230 course
     from BYU-Idaho">
     <meta property="og:title" content="WDD 230 - Web Frontend Development">
@@ -40,7 +40,9 @@
                 </ul>
             </nav>
             <div class="join-search">
-                <button type="submit" id="join" name=""><a href="join.html">JOIN US!</a></button>
+                <form  action="join.html" method="get" >
+                    <button id="join">JOIN US!</button>
+                </form>
                 <form class="search-box">
                     <input type="text" name="search" placeholder="Search...">
                     <button id="btn" type="submit"><img src="images/search-icon.png" alt="search-icon"></button>
@@ -75,7 +77,7 @@
                         <label class="top">Email address* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
                         <label class="top">Mobile phone number* <input type="tel" name="phone" id="phone" pattern="[0-9]{.3,}-[0-9]{.2,}-[0-9]{.7,}" required placeholder="+54 9 123-7777777"></label>
                         <label class="top">Business/Organitation's name* <input type="text" name="bname" id="bname" required></label>
-                        <label class="top">Description <textarea type="text" name="description" id="description" cols="28" rows="5"></textarea></label>
+                        <label class="top">Description <textarea name="description" id="description" cols="28" rows="5"></textarea></label>
                     </fieldset>
                     <fieldset>
                         <legend>Membership</legend>
@@ -89,7 +91,7 @@
                             </select>
                         </label>
                         </fieldset>
-                    <label for="">Timestamp <input type="hidden" name="timestamp" id="timestamp"></label>
+                    <label >Timestamp <input type="hidden" name="timestamp" id="timestamp"></label>
                     <input type="submit" value="SUBMIT" class="submitBtn">
             </form>
         </main>

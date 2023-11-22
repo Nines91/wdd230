@@ -42,7 +42,7 @@ async function displayWeather() {
       daysForecast.forEach(day => {
         const date = new Date(day.dt * 1000);
         const dayOfWeek = date.toLocaleDateString('en-US', { weekday: 'short' });
-        const temperature = day.main.temp;
+        const temperature = day.main.temp ;
         desc = day.weather[0].description;
         desc = desc.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
         const listItem = document.createElement('li');

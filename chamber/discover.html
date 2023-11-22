@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cordoba chamber of commerce</title>
-    <meta author="author" content="Nicolás Ines"">
+    <meta name="author" content="Nicolás Ines">
     <meta name="description" content="Cordoba Chamber of commerce is a project web page from WDD-230 course
     from BYU-Idaho">
     <meta property="og:title" content="WDD 230 - Web Frontend Development">
@@ -40,7 +40,9 @@
                 </ul>
             </nav>
             <div class="join-search">
-                <button type="submit" id="join" name=""><a href="join.html">JOIN US!</a></button>
+                <form  action="join.html" method="get" >
+                    <button id="join">JOIN US!</button>
+                </form>
                 <form class="search-box">
                     <input type="text" name="search" placeholder="Search...">
                     <button id="btn" type="submit"><img src="images/search-icon.png" alt="search-icon"></button>
@@ -71,23 +73,23 @@
             <div class="div-discover2">
                 <h3 class="title-discover">Provincial Data</h3>
                 <ul class="ul-discover">
-                    <li class="li">Capital:</li><p class="main-discover-paragraph">Córdoba</p>
-                    <li class="li">Area:</li><p class="main-discover-paragraph">165,321 km²</p>
-                    <li class="li">Population:</li><p class="main-discover-paragraph">3,978,984 inhabitants (2022 Census)</p> 
+                    <li class="li">Capital:<p class="main-discover-paragraph">Córdoba</p></li>
+                    <li class="li">Area:<p class="main-discover-paragraph">165,321 km²</p></li>
+                    <li class="li">Population:<p class="main-discover-paragraph">3,978,984 inhabitants (2022 Census)</p> </li>
                 </ul>
             </div>
             <div class="div-discover3">
                 <h3 class="title-discover">Events</h3>
                 <ul class="ul-discover">
-                    <li class="li">Nobember 3:</li><p class="main-discover-paragraph event-p">The night of Museums</p>
-                    <li class="li">November 3 & 4 :</li><p class="main-discover-paragraph event-p">Expo premium wine experience</p>
-                    <li class="li">November 5:</li><p class="main-discover-paragraph event-p">Pablo Alborán in Quality Espacio</p>
-                    <li class="li">November 9:</li><p class="main-discover-paragraph event-p">Alex Ubago in Quality Espacio</p>
-                    <li class="li">November 10:</li><p class="main-discover-paragraph event-p">At the Oriental Confitería, Arte Café y Vino presents avant-garde works</p>
-                    <li class="li">November 11st:</li><p class="main-discover-paragraph event-p">Kimbaya Gospel Choir at City of Arts Theater</p>
+                    <li class="li">Nobember 3:<p class="main-discover-paragraph event-p">The night of Museums</p></li>
+                    <li class="li">November 3 & 4 :<p class="main-discover-paragraph event-p">Expo premium wine experience</p></li>
+                    <li class="li">November 5:<p class="main-discover-paragraph event-p">Pablo Alborán in Quality Espacio</p></li>
+                    <li class="li">November 9:<p class="main-discover-paragraph event-p">Alex Ubago in Quality Espacio</p></li>
+                    <li class="li">November 10:<p class="main-discover-paragraph event-p">At the Oriental Confitería, Arte Café y Vino presents avant-garde works</p></li>
+                    <li class="li">November 11st:<p class="main-discover-paragraph event-p">Kimbaya Gospel Choir at City of Arts Theater</p></li>
                 </ul>
-                <form action="" method="">
-                    <input class="calendar" type="date" name="day" id="">
+                <form >
+                    <input class="calendar" type="date" name="day" id="calendar">
                 </form>
             </div>
             <div class="div-discover4">
@@ -114,7 +116,7 @@
                 <a href="https://www.instagram.com/" target="_blank">
                     <img src="images/instagram.png" alt="Instagram icon"/></a>
                 <a href="https://www.youtube.com/watch?v=Sz-p0TQM5cI" target="_blank">
-                    <img src="images/youtube.png"" alt="Youtube icon"/></a>
+                    <img src="images/youtube.png" alt="Youtube icon"/></a>
               </div>
             <div class="info">
                 <img src="images/footer_logo.webp" alt="">
