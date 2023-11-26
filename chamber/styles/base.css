@@ -15,7 +15,6 @@
     max-width: 1024px;
     margin: auto;
     padding: 0;
-    box-sizing: 0;
     background-color: var(--primary-color);
 }
 
@@ -349,7 +348,7 @@ footer {
 
 .social img {
     padding-left: 25px;
-    size:2rem;
+    
 }
 
 .info {
@@ -478,11 +477,11 @@ li p {
 }
 
 .img3:hover {
-    rotate: -30deg;
+    transform: rotate(-30deg);
 }
 
 .img4:hover {
-    filter:sepia();
+    filter: sepia(80%);
 }
 .img5:hover {
     filter: opacity(.75);
@@ -504,7 +503,7 @@ form .form-title {
     text-align: center;
     font-family: var(--heading-font);
     color: var(--accent2-color);
-    font-weight: none;
+    font-weight: 100;
 }
 
 form fieldset {
@@ -639,6 +638,7 @@ main #members-card{
 #members-card {
     background-color: var(--accent2-color);
     padding: 10px;
+    margin: auto;
 }
 
 #members-card section {
@@ -663,6 +663,8 @@ main #members-card{
     width: auto;
     border-radius: 4px;
     margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #members-card p {
@@ -672,6 +674,5 @@ main #members-card{
     font-family: var(--paragraph-font);
     font-size: 15px;
     background-color: transparent;
-    opacity: .4px;
     color: var(--secondary-color);
 }

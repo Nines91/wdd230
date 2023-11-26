@@ -29,14 +29,12 @@ const displayCompanies = (companies) => {
       portrait.setAttribute('src', company.imagIcon);
       portrait.setAttribute('alt', `Portrait of ${company.name}`); 
       portrait.setAttribute('loading', 'lazy');
-      portrait.setAttribute('width', '280');
+      portrait.setAttribute('width', 'auto');
       portrait.setAttribute('height', '158');
       paragraph.innerHTML = `${company.address}<br>${company.phone}<br>${company.shortDescription}<br> Membership Level: ${company.membershipLevel}`;
       website.setAttribute =('href', company.website);
       website.setAttribute = ('alt', `Website of ${company.name}`); 
       
-      
-  
       // Append the section(card) with the created elements
       card.appendChild(name); 
       card.appendChild(portrait);
@@ -44,10 +42,7 @@ const displayCompanies = (companies) => {
       card.appendChild(website);
   
       cards.appendChild(card);
-    }); // end of arrow function and forEach loop
+    }); // end of arrow function and forEach loop*/
   }
 
-  gridbutton.addEventListener('click',getMembersData);
-
-
-  /*getMembersData();*/
+ gridbutton.addEventListener('click',getMembersData);
