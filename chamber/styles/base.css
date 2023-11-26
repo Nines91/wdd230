@@ -526,7 +526,7 @@ form label.top{
     display: block;
     padding-top: 1.8rem;
     font-size: 1.3rem;
-    color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 form label.top input, form label.top-level select {
