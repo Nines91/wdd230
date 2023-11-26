@@ -502,7 +502,7 @@ form {
 form .form-title {
     text-align: center;
     font-family: var(--heading-font);
-    color: var(--accent2-color);
+    color: var(--accent1-color);
     font-weight: 100;
 }
 
