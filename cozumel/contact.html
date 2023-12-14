@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scooter Trip</title>
+    <meta name="author" content="Nicolás Ines">
+    <meta name="description" content="Moto Rental final web page project for WDD-230 course
+    from BYU-Idaho">
+    <meta property="og:title" content="WDD 230 - Web Frontend Development">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://v2.cdnpk.net/videvo_files/video/premium/partners1016/thumbnails/BB_8aab6dbe-69f0-48dd-89d2-dbb4ecbbea74_small.jpg">
+    <meta property="og:url"   content="https://nines91.github.io/wdd230/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Antic&family=Audiowide&family=Cabin+Sketch&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+</head>
+    <body>
+        <div id="content">
+        <header>
+            <div class="header">
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="rentals.html">Rentals</a></li>
+                        <img class="logo" src="images/Screenshot.png" width="300" height="324" alt="logo">
+                        <li><a href="reservations.html">Reservations</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div class="contact-container">
+                <h1 class="title">Find us</h1>
+                <div class="maps">
+                    <p class="info-locate">Cuzomel center island</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1868.4325569031246!2d-86.94845990233662!3d20.51175503650543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e59cebcc44c25%3A0x116ec79ef00cd461!2sHTL%20RENTALS%20scooter%20Buggy%20%26%20jeeps%20rentals!5e0!3m2!1ses-419!2sar!4v1702417074995!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="maps">
+                    <p class="info-locate">Playa del Carmen city</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29877.144665328557!2d-87.16261498916016!3d20.602628399999993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa8b3d0b99c55f%3A0x200468f49df0b6b2!2sScooters%20Rentals!5e0!3m2!1ses-419!2sar!4v1702417256982!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <form action="index.html" method="get">
+                    <div class="form-info">
+                        <h1 class="title">Give us a CALL</h1>
+                        <p class="info">General information: <span>+52 984 123 4567</span></p>
+                        <p class="info">Cuzomel Island: <span>+52 984 123 4567</span></p>
+                        <p class="info">Playa del Carmen: <span>+52 984 123 4567</span></p>
+                    </div>
+                    <fieldset>
+                        <legend>ASK US A QUESTION</legend>
+                        <label for="name"><input class="fill-field" type="text" name="name" id="name" placeholder="Name" required></label>
+                        <label for="email"><input class="fill-field" type="email" name="email" id="email" placeholder="someone@gmail.com" required></label>
+                        <label for="textarea"><textarea class="fill-field" name="textarea" id="textarea" rows="9" cols="45" placeholder="Leave your comment or question."></textarea></label>
+                        <button class="btn">Send</button>
+                    </fieldset>    
+                </form>
+            </div>
+        </main>
+        <footer>
+            <div class="copyright">Copyright &copy;<span id="year"></span> | SCOOTER TRIP | Nicolás F. Ines | WDD230 Final Project | Last modification <span id="modified"></span>.</div>
+            <div class="social">
+                <a href="https://es-la.facebook.com" target="_blank">
+                    <img src="images/facebook.png" alt="Facebook icon"/></a>
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img src="images/instagram.png" alt="Instagram icon"/></a>
+                <a href="https://www.youtube.com/watch?v=Sz-p0TQM5cI" target="_blank">
+                    <img src="images/youtube.png" alt="Youtube icon"/></a>
+              </div>
+        </footer>
+    </div>
+        <script src="scripts/getdates.js"></script>
+        <script src="scripts//weather.js"></script>
+    </body>
+</html>
